@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Support for Students</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #f8f0e3 50%, #dfe8dc 50%);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow-x: hidden;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #dfe8dc, #b4d0b8);
+            width: 100%;
+            position: relative;
+            z-index: 1;
+        }
+
+            header h1 {
+                font-size: 36px;
+                color: #4a3728;
+            }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            justify-content: space-between;
+            padding: 40px;
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        .content {
+            flex: 1;
+            max-width: 600px;
+            padding: 20px;
+            overflow-wrap: break-word;
+        }
+
+            .content h2 {
+                color: #4a3728;
+                font-size: 28px;
+            }
+
+            .content p, .content ul {
+                color: #5f4b40;
+                font-size: 18px;
+                line-height: 1.8;
+            }
+
+                .content ul li {
+                    margin: 10px 0;
+                    padding: 10px;
+                    background: rgba(210, 230, 210, 0.8);
+                    border-radius: 8px;
+                }
+
+        .image-container {
+            position: relative;
+            flex: 1;
+            max-width: 400px;
+            text-align: center;
+        }
+
+            .image-container img {
+                width: 100%;
+                border-radius: 10px;
+                max-width: 100%;
+            }
+
+        .image-overlay {
+            position: absolute;
+            top: 650px;
+            left: 10%;
+            width: 70%;
+            max-width: 200px;
+            z-index: 2;
+            border-radius: 10px;
+        }
+
+        .full-width {
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+            color: #5f4b40;
+            font-family: 'Georgia', serif;
+            font-size: 18px;
+        }
+
+        footer {
+            background: linear-gradient(135deg, #dfe8dc, #b4d0b8);
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+            footer p {
+                color: #4a3728;
+            }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mental Health Support for Students</h1>
+    </header>
+
+    <section>
+        <div class="content">
+            <h2>About the Project</h2>
+            <p>
+                Our team focuses on addressing stress and anxiety among students. Fast-paced academic schedules and life pressures often lead to burnout, impacting academic performance and well-being.
+            </p>
+
+            <h2>What is Stress?</h2>
+            <p>
+                Stress is the body's response to negative emotions or challenging situations. While some stress is normal, excessive stress can harm both mental and physical health.
+            </p>
+
+            <h2>Tips to Reduce Stress</h2>
+            <ul>
+                <li><b>Shift Your Focus:</b> Engage in positive activities like meeting friends, watching a comforting movie, or exploring nature.</li>
+                <li><b>Stay Active:</b> Exercise, walk, or do chores to release pent-up energy.</li>
+                <li><b>Breathing Exercises:</b> Help regulate heart rate and reduce tension.</li>
+                <li><b>Explore Hobbies:</b> Reading, crafting, or learning a new skill can boost your mood.</li>
+                <li><b>Interact with Pets:</b> Spend time with animals to reduce stress.</li>
+                <li><b>Color Patterns:</b> Try coloring detailed images to calm your mind.</li>
+                <li><b>Embrace Comfort:</b> Hug loved ones to release positive chemicals in the brain.</li>
+            </ul>
+        </div>
+
+        <div class="image-container">
+            <img src="1.png" alt="Relaxation Illustration">
+            <img src="2.png" alt="Second Illustration" class="image-overlay">
+        </div>
+    </section>
+
+    <!-- Контейнер для QR-кода -->
+    <div class="qrcode" id="qrcode"></div>
+
+    <div class="full-width">
+        <h2>Summary</h2>
+        <p>
+            Overcoming stress requires a comprehensive approach. Discovering personal strategies, incorporating sports, and improving sleep and relaxation can significantly improve mental health.
+        </p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Student Wellness Initiative</p>
+    </footer>
+</body>
+</html>
+
